@@ -1,4 +1,4 @@
-from src.main.utils.security.encrypt_decrypt import AWSCredentialsManager
+from src.main.utils.security.encryption import AWSCredentialsManager
 
 if __name__=='__main__':
     manager = AWSCredentialsManager()
