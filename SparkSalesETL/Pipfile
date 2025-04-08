@@ -8,6 +8,8 @@ pyspark = "*"
 cryptography = "*"
 boto3 = "*"
 mysql-connector-python = "*"
+faker = "*"
+pathlib = "*"
 
 [dev-packages]
 
