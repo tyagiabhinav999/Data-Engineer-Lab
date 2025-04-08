@@ -1,4 +1,4 @@
-CREATE TABLE product_staging_table (
+CREATE TABLE IF NOT EXISTS product_staging_table (
     id int AUTO_INCREMENT PRIMARY KEY,
     file_name VARCHAR(255),
     file_location VARCHAR(255),
