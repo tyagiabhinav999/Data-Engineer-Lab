@@ -23,7 +23,8 @@ class MySQLConnector:
             return self.cursor
 
         def initialize_schema(self, sql_file_path):
-
+            root = Path(__file__).resolve().parents[4]
+            sql_file_path = root / sql_file_path
             with open(sql_file_path, "r") as file:
                 sql_script = file.read()
             statements = sql_script.split(";")
